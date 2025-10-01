@@ -1,4 +1,4 @@
-# ⚔️ ROG Gaming Dashboard - Futuristic Data Visualization
+# ⚔️ Gaming Dashboard - Futuristic Data Visualization
 
 A professional gaming analytics dashboard inspired by **Republic of Gamers (ROG)** aesthetics. Built with React, TypeScript, Framer Motion, and Chart.js, featuring real-time player statistics, server monitoring, esports tracking, and comprehensive gaming metrics.
 
