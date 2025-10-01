@@ -1,14 +1,29 @@
-# ⚔️ ROG Gaming Dashboard - Futuristic Data Visualization
+# 📊 Gaming Analytics Dashboard - Category-Based Data Visualization
 
-A professional gaming analytics dashboard inspired by **Republic of Gamers (ROG)** aesthetics. Built with React, TypeScript, Framer Motion, and Chart.js, featuring real-time player statistics, server monitoring, esports tracking, and comprehensive gaming metrics.
+A professional gaming analytics dashboard with category-based filtering system. Built with React, TypeScript, Framer Motion, and Chart.js, featuring real-time player statistics, server monitoring, esports tracking, and comprehensive gaming metrics.
+
+## 🌐 Live Demo
+
+**[View Live Dashboard →](https://justjhong609.github.io/DataVis/)**
 
 ![Dashboard Preview](https://img.shields.io/badge/Status-Production%20Ready-success)
 ![React](https://img.shields.io/badge/React-19.1-61dafb?logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178c6?logo=typescript)
 ![Framer Motion](https://img.shields.io/badge/Framer%20Motion-11.0-ff0055)
 ![Chart.js](https://img.shields.io/badge/Chart.js-4.4-ff6b88)
+![Deployed](https://img.shields.io/badge/Deployed-GitHub%20Pages-blue)
 
 ## ✨ Features
+
+### 🎯 Category-Based Navigation
+
+**6 Organized Categories** - Click to view specific data:
+- **📊 Overview** - Quick dashboard summary
+- **🎮 Player Stats** - Player metrics and trends
+- **🌐 Server Status** - Server health monitoring
+- **🏆 Esports** - Tournament tracking
+- **📈 Analytics** - Data visualization charts
+- **👑 Leaderboard** - Top games ranking
 
 ### 🎮 Gaming-Specific Widgets
 
@@ -43,26 +58,29 @@ A professional gaming analytics dashboard inspired by **Republic of Gamers (ROG)
 - **Latency Tracking**: 8ms - 156ms response times
 - **Capacity Management**: Real-time player counts per region
 
-### 🎨 ROG-Inspired Design
+### 🎨 Professional Design System
 
 #### **Color Palette**
-- **Primary**: `#ff0035` (ROG Red) - Main brand color
-- **Accents**: `#ff385c`, `#ff6b88` (Red variations)
-- **Success**: `#00ff88` (Neon Green) - Server health, achievements
-- **Background**: Near-black (`#0a0a0f`) with charcoal tones
-- **Gradients**: Red-to-pink linear gradients for headers and accents
+- **Primary**: `#4f46e5` (Indigo) - Main brand color
+- **Secondary**: `#0ea5e9` (Sky Blue) - Accent highlights
+- **Purple**: `#8b5cf6` - Special elements and effects
+- **Success**: `#10b981` (Emerald) - Server health, achievements
+- **Warning**: `#f59e0b` (Amber) - Attention states
+- **Background**: Slate gradient (`#0f172a` → `#334155`)
+- **No Neon Colors**: Clean, sophisticated aesthetic
 
 #### **Visual Effects**
 - Glass morphism with backdrop blur
-- Pulsing live indicators
-- Glowing hover effects with red shadows
+- Pulsing live indicators (non-neon)
+- Smooth hover effects with indigo shadows
 - Animated status badges
-- Smooth Framer Motion transitions
-- Custom red-gradient scrollbars
+- Framer Motion category transitions with AnimatePresence
+- Custom indigo-purple gradient scrollbars
 
 ### 🔧 Interactive Features
 
-- **Widget Toggle System**: Show/hide 13+ widgets dynamically
+- **Category Navigation**: 6 organized categories with instant switching
+- **Dynamic Filtering**: Only show data for selected category
 - **Real-Time Updates**: Live data simulation every 5 seconds
 - **Status Indicators**: 
   - 🟢 Healthy servers with pulsing green badges
@@ -136,7 +154,7 @@ src/
 ├── data/
 │   └── mockData.ts                # Gaming data (players, servers, tournaments)
 ├── styles/
-│   └── theme.ts                   # ROG color palette & global styles
+│   └── theme.ts                   # Professional color palette & global styles
 ├── types/
 │   └── index.ts                   # TypeScript interfaces for all data
 ├── App.tsx                        # Root component
@@ -220,13 +238,13 @@ Replace mock data in `src/data/mockData.ts` with your API calls.
 
 ## 🎨 Customization Guide
 
-### 1. Change ROG Theme Colors
+### 1. Change Theme Colors
 Edit `src/styles/theme.ts`:
 ```typescript
 colors: {
-  primary: '#ff0035',     // Change main ROG red
-  secondary: '#ff385c',   // Adjust accent red
-  success: '#00ff88',     // Modify success green
+  primary: '#4f46e5',     // Change main indigo
+  secondary: '#0ea5e9',   // Adjust sky blue
+  success: '#10b981',     // Modify success emerald
 }
 ```
 
